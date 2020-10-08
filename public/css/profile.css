@@ -1,0 +1,308 @@
+
+img.photo-profile{
+    max-width:50%;
+    border-radius:80px;
+  }
+  div.row-section{
+    margin-top: 40px;
+  }
+  div.teacher-name{
+      margin-top: 20px;
+  }
+  div h2.name-teacher-h2{
+    text-align: left;
+  }
+  div.card-profile {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  header.header {
+    padding: 10px 0;
+    background: #f5f5f5;
+    border-top: 10px solid #00acee;
+  }
+  .button-email{
+    margin:10px 0;
+  }
+  a.email-button{
+    border-bottom: #1C3643 2px solid;
+  }
+  div.button-email span.email-teacher{
+    color: #1C3643!important;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    line-height: 1.25;
+  }
+
+  div.social-icons .fa-linkedin,.fa-twitter,.fa-facebook{
+      color:#1C3643;
+  }
+  div.social-icons .fa-linkedin:hover,.fa-twitter:hover,.fa-facebook:hover{
+    font-size: 20px;
+    color:#00acee;
+  }
+h5.title-h5, .fa-circle{
+    color:#00acee;
+  }
+  div h2.title-teacher{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.33;
+    color: #444
+  }
+  div.subtitle-teacher{
+    font-size: 20px;
+    line-height: 1.33;
+    color: #444;
+  }
+  div.title-recomendacion{
+    padding:20px;
+  }
+  div.form-recomendation{
+      margin-top: 25px;
+  }
+  div p.text-description{
+    font-size: 1.4rem!important;
+    color: #273b47;
+    font-weight: 500!important;
+    font-family: 'Lato', sans-serif;
+  }
+  div.card-consejo{
+      padding:15px;
+      margin: 25px 0 0 0;
+      -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.16), 0 2px 2px 0 rgba(0,0,0,0.12);
+      box-shadow: 0 1px 5px 0 rgba(0,0,0,0.16), 0 2px 2px 0 rgba(0,0,0,0.12);
+  }
+  p.text-areaP{
+    margin: 0px;
+  }
+  button.button-send{
+    background-color:#00acee!important;
+    color: white;
+    height: 30px;
+    width: 150px;
+    border-radius: 6px;
+    font-size: 0.8em;
+    padding:0px;
+  }
+  button.button-send:hover{
+      color: white;
+  }
+  div a.edit-profile{
+    background-color:#00acee!important;
+    color: white;
+    height: 30px;
+    width: 120px;
+    border-radius: 6px;
+    font-size: 0.7em;
+    padding:10px;
+  }
+  textarea.textarea-explication{
+    margin-top: 10px;
+     border: #00acee 1px solid;
+  }
+  .list-group {
+      list-style: disc inside;
+  }
+  
+  .list-group-item {
+      display: list-item;
+  }
+  
+   .find-more{
+     text-align: right;
+   }
+  
+  
+  .label-theme{
+    background: #00acee;
+    font-size: 14px;
+    padding: .3em .7em .3em;
+    color: #fff;
+    border-radius: .25em;
+  }
+  
+  .label a{
+    color: inherit;
+  }
+
+@media (min-width: 200px) {
+    header.header{
+        margin-top: -50px;
+    }
+}
+@media (min-width: 768px) { 
+    header.header{
+        margin-top: 10px;
+    }
+    div.form-recomendation{
+      margin-top: 0px;
+    }
+    div.div.card-consejo{
+      margin: 25px 0 0 0;
+    }
+}
+
+/* Card comment */
+
+p.text-comment{
+  line-height: 1.5;
+  font-size: 1em;
+}
+img.image-perfil-comment{
+  display: block;
+  max-width: 100%;
+}
+nav ul,
+nav li{
+  list-style: none;
+  padding: 0; 
+}
+
+/* layout */
+.main-box-personales,
+.main-box-comments {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+
+.box-title-secondary,
+.box-text-description {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.box-title-secondary {
+  position: relative;
+}
+
+
+/* modules */
+/* title secondary */
+.title-secondary,
+.text-description {
+  font-family: var(--main-font);
+}
+.box-title-secondary::after{
+  content: "";
+  background-color: var(--main-color);
+  width: 8%;
+  height: 3px;
+  
+  position: absolute;
+  bottom: 0;
+  left: 46%;
+}
+.title-secondary{
+  font-size: 2rem;
+}
+
+/* text description */
+.text-description {
+  width: 80%;
+  margin: 0 auto 1.5rem;
+}
+
+/* card personal */
+.main-box-personal {
+  border: 1.5px solid rgba(0,0,0,.1);
+  width: 23%;
+}
+.box-image-personal {
+  position: relative;
+}
+.box-social-media {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  
+  width: 100%;
+  height: 40%;
+  opacity: 0;
+  transition: opacity .2s linear,
+              height .2s linear;
+}
+
+/* card comment */
+.main-box-comment {
+  width: 32%;
+}
+div.box-image-perfil-comment{
+  margin: 0 0 30px 0;
+}
+.image-perfil-comment {
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  top: 50px;
+}
+.box-comment {
+  background-color: #f7f7f7;
+  padding: 4rem 2rem 2rem;
+}
+.text-comment {
+  text-align: center;
+  font-style: italic;
+  font-family: var(--main-font);
+  font-size: .8rem;
+  line-height: 2;
+  color: #777;
+}
+.name-comment,
+.profession-comment {
+  text-align: center;
+  font-family: var(--main-font);
+  color: rgb(37, 37, 37);
+}
+.name-comment {
+  color: rgb(37, 37, 37);
+  font-size: 1.2em;
+}
+.profession-comment {
+  font-size: 0.8rem;
+  color: #777;
+}
+  
+
+
+/* media queris */
+@media screen and (max-width: 980px){
+  .main-box-personales,
+  .main-box-comments {
+    justify-content: space-around;
+  }
+  .main-box-comment {
+    width: 40%;
+  }
+  .main-box-personal {
+    border: 1.5px solid rgba(0,0,0,.1);
+    width: 40%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 520px){
+  .main-box-personales,
+  .main-box-comments {
+    padding: 1.5rem 1rem;
+  }
+  .main-box-personal {
+    border: 1.5px solid rgba(0,0,0,.1);
+    width: 100%;
+  }
+  .image-personal {
+    width: 100%;
+  }
+  .text-description {
+    width: 100%;
+    font-size: .880rem;
+  }
+  .main-box-comment {
+    width: 100%;
+  }
+}

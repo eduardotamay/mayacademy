@@ -1,0 +1,436 @@
+@media (min-width: 768px){
+    div.cart-box{
+        margin-top: 30px;
+        font-weight: 500;
+        font-size: 2em;
+    }
+    header.page-header{
+        margin-top: 70px!important;
+    }
+}
+.page-header--no-border {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+.page-header {
+    margin: 0 0 2rem;
+    padding-bottom: .75rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+h1.h2-mycart{
+    text-align: left;
+    margin-bottom: .625rem;
+    font-family: inherit;
+    color:  #444;;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+h3.cart-empty{
+    display: inline-block;
+    font-size: 0.9em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    color: #4a4a4a;
+}
+i.fa-info-circle{
+    top: 20px;
+    left: 20px;
+    width: 48px;
+    height: 48px;
+    font-size: 1.375rem;
+    line-height: 44px;
+    text-align: center;
+    color: #b0b0b0;
+    border: 1px solid #e8e8e8;
+    border-radius: 50%;
+    color: #00b2bd!important;
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+p.info-buy-learn{
+    margin-bottom: 0;
+    color: #848484;
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 0.6em;
+}
+a.continue-buy-text{
+    color: #f02d00;
+    border-bottom: 1px solid transparent;
+    font-weight: 500;
+}
+
+/* Table my-cart */
+
+div.box-cart-product{
+    border-bottom: 1px #4444 solid;
+    display: flex;
+}
+div.box-img-photo-product,div.box-detalle-producto{
+    margin:10px 0 0 15px;
+}
+div.box-img-photo-product{
+    display: inline-block;
+    align-self: center;
+}
+div img.photo-producto{
+    width: 50px;
+    height: 50px;
+}
+p.text-pricing1{
+    display: inline-block;
+    color: #E6215D;
+    font-size: large;
+    font-weight: bold;
+    margin: 0px;
+}
+p.nombre-producto, p.nombre-profesor-producto{
+    margin: 0px;
+}
+p.nombre-producto{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(16 16 16 / 80%);
+}
+p.text-pricing2{
+    display: inline-block;
+    color: #777;
+    margin: 0px;
+}
+div.box-btn-delete{
+    display: inline-block;
+    align-self: center;
+    margin: 0 25px 0 auto;
+}
+a.delete-icon:hover{
+    color: #777;
+}
+div.row-col-total{
+    webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+div.card-pay{
+    color: darkslategrey;
+    webkit-box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0);
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0);
+}
+div.box-card-buy{
+    margin: 20px;
+}
+p.resumen{
+    color: #181B32;
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+    font-weight: bold;
+}
+div.subtotalynum,div.descuento-num,div.total-pagar-num{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.subtotalynum,div.descuento-num{
+    border-bottom: 1px #C3CBD6 solid;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+div p.subtotal-pesos, div p.descuento-pesos{
+    color: #444444;
+    font-size: 13px;
+    font-weight: bold;
+}
+div p.total-pesos{
+    color: #E6215D;
+    font-size: 16px;
+    font-weight: bold;
+}
+div.col-metodos-pago{
+    margin: 10px;
+}
+div.img-metodos-de-pago{
+    display:flex;
+}
+div img.img-m-pago{
+    max-height: 18px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+    filter: grayscale(100%);
+}
+
+div#carrito-status {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+}
+div.cart-payment{
+    display: inline-block;
+}
+div.box-pagar-input{
+    margin-bottom: 13px;
+}
+div.box-pagar-banco{
+    padding: 30px;
+    background: #f5f5f5;
+    border-radius: 3px;
+    margin-bottom: 3px;
+}
+div.box-pagar-banco:hover{
+    box-shadow: 0 0 10px 100px #F3F6F9 inset;
+}
+div input.input-pago{
+    margin-left: 15px;
+}
+div.img-metodos-de-pago-pagar{
+    display: inline-block;
+    margin-left: 20px;
+}
+div img.img-m-pago-pagar{
+    max-height: 18px;
+    filter: none;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+select.select-country{
+    margin: 3px 0 25px 0!important;
+    height: 60px!important;
+    width: 60%!important;
+}
+label.radio-select-payment{
+    margin-left: 35px;
+    padding-left: 0px;
+}
+/* Payment card */
+div.recordar-conexsecu{
+    display:flex;
+    justify-content: space-between;
+}
+div.month-year-cvc{
+    display: flex;
+    margin-bottom: 0px;
+}
+div.month-card,div.year-card{
+    width: 35%;
+}
+div.year-card{
+    margin: 0 15px 0 0;
+}
+div.cvc-card,div.name-person,div.number-card{
+    border: 1px solid #ced4da;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+div.name-person,div.number-card{
+    margin-bottom: 20px;
+}
+div input.cvc,input.number-card,input.name-person{
+    border-bottom: none!important;
+    webkit-box-shadow:0 0px 0 0!important;
+    box-shadow: 0 0px 0 0!important;
+}
+div input.cp,input.city,input.country,input.state{
+    border-bottom: none!important;
+    webkit-box-shadow:0 0px 0 0!important;
+    box-shadow: 0 0px 0 0!important;
+}
+div label.cvc, div label.number-card, div label.name-person{
+    font-size: 1.2rem;
+    left: 2px;
+}
+div label.number-phone,div label.email, div label.name-full,label.country,label.state,label.city,label.cp{
+    font-size: 1.2rem;
+    left: 2px;
+}
+span.fecha-valida{
+    display: flex;
+    margin-bottom: 15px;
+    font-weight: lighter;
+    font-size: 1.1rem;
+}
+div.month-year-valid{
+    display: flex;
+}
+span.fecha-valida-month,span.fecha-valida-year{
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 1.1rem;
+    margin:0px 10px;
+}
+
+div.payment-form{
+    display: block;
+    align-self: start;
+}
+div.resumen-payment{
+    webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    background-color: #fff;
+}
+@media (min-width: 576px) { 
+    div.month-year-valid{
+        display: none;
+    }  
+}
+@media (min-width: 768px){
+    .modal-dialog {
+        width: 600px;
+        margin: 0px auto;
+    }
+}
+div.security-card{
+    display: flex;
+    justify-content: space-between;
+}
+div#box-paypal{
+    padding: 20px;
+    background: aliceblue;
+    margin: 60px 0 60px 0px;
+}
+div.nombre-pago-modificar{
+    display: flex;
+    justify-content: space-between;
+}
+span.texto-weigth{
+    font-weight: lighter;
+}
+/* Box spei */
+p.transferencia{
+    font-weight: bolder;
+    margin-top: 15px;
+}
+div.a-nombre-de,div.referencia,div.para-localizar-pago{
+    margin-bottom: 15px;
+}
+span.clave-num,div.refe-num,span.nombre-sucursal{
+    font-weight: bolder;
+}
+/* OXXO PAY */
+.opps {
+	width: auto; 
+	border-radius: 4px;
+    box-sizing: border-box;
+	margin: 10px auto;
+	overflow: hidden;
+	border: 1px solid #b0afb5;
+	font-family: 'Open Sans', sans-serif;
+	color: #4f5365;
+}
+.opps-header{
+    padding: 0 10px;
+}
+.opps-reminder {
+	position: relative;
+	top: -1px;
+	padding: 9px 0 10px;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ffffff;
+	background: #000000;
+}
+
+.opps-info {
+	margin-top: 26px;
+	position: relative;
+}
+
+.opps-info:after {
+	visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+
+}
+
+.opps-brand {
+	width: 45%;
+	float: left;
+}
+
+.opps-brand img {
+	max-width: 150px;
+	margin-top: 2px;
+}
+
+.opps-ammount {
+	width: 55%;
+	float: right;
+}
+
+.opps-ammount h2 {
+	font-size: 36px;
+	color: #000000;
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+
+.opps-ammount h2 sup {
+	font-size: 16px;
+	position: relative;
+	top: -2px
+}
+
+.opps-ammount p {
+	font-size: 10px;
+	line-height: 14px;
+}
+
+.opps-reference {
+	margin-top: 14px;
+}
+
+h1.referencia-oxxo,h1.expira-oxxo{
+	font-size: 27px;
+	color: #000000;
+	text-align: center;
+	margin-top: -1px;
+	padding: 6px 0 7px;
+	border: 1px solid #b0afb5;
+	border-radius: 4px;
+	background: #f8f9fa;
+}
+
+h1.expira-oxxo{
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	margin-top: -1px;
+	padding: 6px 0 7px;
+	border: 1px solid #b0afb5;
+	border-radius: 4px;
+	background: #f8f9fa;
+}
+
+.opps-instructions {
+	padding: 32px 45px 45px;
+	border-top: 1px solid #b0afb5;
+    background: #f8f9fa;
+    margin: 0 0px;
+}
+
+ol.lista-desordenada{
+	margin: 17px 0 0 16px;
+}
+
+li.lista-ordenada + li.lista-ordenada {
+	margin-top: 10px;
+	color: #000000;
+}
+
+.opps-footnote {
+	margin-top: 22px;
+	padding: 22px 20 24px;
+	color: #108f30;
+	text-align: center;
+	border: 1px solid #108f30;
+	border-radius: 4px;
+	background: #ffffff;
+}

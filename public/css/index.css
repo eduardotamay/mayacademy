@@ -1,0 +1,438 @@
+/* # General
+================================ */
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    background-color: #F3F6F9;
+    }
+
+    /* # Header, Main Menu
+    ================================ */
+
+    .navbar {
+    opacity: 0.9;
+    margin-bottom: 0;
+    background-color: #fff;
+    transition: all 0.2s ease-out;
+    }
+
+    .navbar-container {
+        position: relative;
+    }
+
+    .navbar .navbar-nav li a {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #2E1C05;
+    transition: all 0.2s ease-out;
+    }
+
+    .navbar-brand {
+    font-size: 25px;
+    transition: all 0.2s ease-out;
+    }
+
+    a.logo-cursos{
+        font-family: 'Fredoka One',cursive;
+    }
+
+    .navbar-scroll {
+    opacity: 3;
+    }
+
+    #top-social-menu {
+        display: none;
+    }
+
+    @media (min-width: 768px) {
+    .navbar {
+        height: 120px;
+    }
+
+    ul li.onli-small-screen{
+        display: none;
+    }
+
+    .navbar-nav>li>a {
+        padding: 0;
+        margin-top: 35px;
+        margin-left: 40px;
+        line-height: 70px;
+    }
+
+    .navbar-brand {
+        font-size: 28px;
+        padding: 0;
+        height: 120px;
+        line-height: 120px;
+    }
+
+    #top-social-menu {
+        display: initial;
+    }
+
+    /* Navbar when scrolled */
+
+    .navbar-scroll {
+        height: 70px;
+    }
+
+    .navbar-scroll #top-social-menu {
+        display: none;
+        transition: all 0.2s ease-out;
+    }
+
+    .navbar-scroll .navbar-brand {
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .navbar-scroll .navbar-nav>li>a {
+        opacity: 1;
+        padding: 0;
+        margin-top: 0;
+    }
+    }
+
+    /* # Hover Link Effect
+    ================================ */
+    @media (min-width: 768px) {
+    .navbar-nav>li>a::after {
+        position: absolute;
+        top: 80%;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        content: '';
+        opacity: 1;
+        transition: height 1s, opacity 1s, transform 1s;
+        transform: translateY(-10px);
+    }
+
+    /* Margin-top del card-course*/
+    .card-course{
+        margin-top: 20px;
+    }
+
+    div.horizontal{
+        display: inline-flex;
+        border-radius: 10px;
+    }
+
+    div h1.title-course{
+        font-size: 1.6em;
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        line-height: 1.25;
+        color: #273b47;
+    }
+
+    div.name-profesordiv{
+        margin: 25px;
+        font-family: 'Lato', sans-serif;
+        font-weight: normal;
+        line-height: 1.25;
+    }
+
+    div p.description-course{
+        margin: 25px;
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 1.25;
+        color: #54595F;
+    }
+
+    div.card-svg{
+        margin: 25px 0 0 0;
+        border-radius: 16px;
+        -webkit-border-radius:16px;
+    }
+
+    div ul#top-social-menu{
+        padding-right: 15px;
+    }
+
+    div a.logo-cursos{
+        margin-left: 0px;
+    }
+
+    div ul.navbar-right{
+        margin-right: 0px;
+    }
+
+    .navbar-nav>li>a:hover::after,
+    .navbar-nav>li>a:focus::after {
+        height: 2px;
+        background: #2E1C05;
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    }
+
+    /* # Social menu
+    ================================ */
+
+    #top-social-menu {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    font-size: 12px;
+    z-index: 101;
+    padding-right: 0px;
+    list-style: none;
+    color: #2E1C05;
+    transition: all 0.2s ease-out;
+    }
+
+    #top-social-menu li {
+    float: left;
+    padding: 10px 15px;
+    }
+
+    #top-social-menu li:last-child {
+        padding-right: 0;
+    }
+
+    #top-social-menu li a {
+    text-decoration: none;
+    color: #2E1C05;
+    }
+
+    #top-social-menu li a.estilo-log-regi:hover{
+        font-size: 15px;
+    }
+
+    #top-social-menu li a:hover {
+        text-decoration: none;
+    }
+
+    #top-social-menu i {
+        font-size: 16px;
+        transition: all 0.2s ease-in;
+    }
+
+    #top-social-menu i:hover,ul li.onli-small-screen i:hover {
+        text-decoration: none;
+        font-size: 40px;
+    }
+
+    #top-social-menu li a i.fa-twitter,ul li.onli-small-screen i.fa-twitter {
+        text-decoration: none;
+        color: #00acee;
+    }
+
+    #top-social-menu li a i.fa-facebook, ul li.onli-small-screen i.fa-facebook {
+        text-decoration: none;
+        color: #3b5998;
+    }
+
+    /* # Section Full Width Image
+    ================================ */
+
+    .full-width-img {
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    height: 450px;
+    color: #fff;
+    }
+
+    .box {
+        background: rgba(0, 0, 0, 0.4);
+    border: 3px solid #000;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+    }
+    div a span.l-maya{
+        color: #000;
+    }
+    div a span.l-cademy{
+        color: #50B4FF;
+    }
+    .subheading-text {
+    list-style: none;
+    font-size: 35px;
+    line-height: 50px;
+    }
+
+    @media (min-width: 768px) {
+
+    .full-width-img {
+        padding-top: 110px;
+        height: 1000px;
+    }
+    
+    .subheading-text {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .box {
+        margin-top: 100px;
+        padding: 80px 20px;
+    }
+    }
+    /* # Section Black, White
+    ================================ */
+
+    .section-black,
+    .section-white {
+        padding: 50px 0;
+        color: #fff;
+        line-height: 1.7;
+    }
+
+    .section-black h3,
+    .section-white h3 {
+        margin-bottom: 60px;
+    }
+
+    .section-black p,
+    .section-white p {
+    margin-bottom: 60px;
+    }
+
+    .section-black {
+        background: linear-gradient(#363437, #121112);
+    }
+
+    .section-white {
+        background: linear-gradient(#ffffff, #f3f3f3);
+    color: #0e0d0e;
+    }
+/* Card horizontal */
+div.horizontal{
+    padding: 10px;
+    border-radius: 10px;
+}
+div.hoverable{
+    margin-bottom: 20px;
+}
+div.hoverable:hover{
+    border-radius: 10px;
+}
+div a.name-profesor{
+    text-decoration: none!important;
+    color: #777;
+}
+div.card-image{
+    display:inline-flex;
+}
+div button.btn-buy{
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    width: 200px;
+    height: auto;
+    background-color:#50B4FF;
+    color: white;
+    font-size: 15px;
+    border-radius:6px;
+}
+div button.btn-buy:hover{
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    width: 200px;
+    height: auto;
+    background-color:#50B4FF;
+    color: white;
+    font-size: 15px;
+    border-radius:6px;
+}
+div.progress-b{
+    margin: 25px 25px 0px 25px;
+}
+div.progress-bar{
+    background-color: #50B4FF!important;
+}
+div p.text-progress{
+    text-align: left;
+}
+div.barra-progreso{
+    background:#dedede;
+}
+div.card-action-buy{
+    display: inline-block!important;
+}
+div.card-footer-recomendado{
+    height: auto;
+    display:inline-block!important;
+    float: right!important;
+    margin-right: 10px;
+}
+div span.text-recomendado{
+    font-weight: 100;
+}
+div i.star-recomended{
+    color:#F0AD4E;
+    border: 1 solid black;
+}
+.fadedfx {
+    background-color: #fe5652;
+    visibility: hidden;
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0.0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0.0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+/* Row && Card SVG */
+div.row-svg{
+    margin: 20px 0 0 0;
+}
+div h4.title-sgv{
+    color: #324550;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: start;
+}
+div.card-svg{
+    padding: 10px;
+}
+
+div p.text-description-sgv{
+    font-size: 1.4rem!important;
+    color:#273b47;
+    font-weight: 500!important;
+    font-family: 'Lato', sans-serif;
+}
+div p.nuestra-plataforma{
+    font-size: 20px;
+    color: #273b47;
+    line-height: 1.35;
+    font-weight: 600;
+}
+/* Footer */
+footer{
+    margin-top: 40px;
+    width: auto;
+    height: 100px;
+    background-color:#1C3643;
+}
